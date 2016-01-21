@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var makeItBlue: UIButton!
+    
+    @IBOutlet weak var fireTheLasers: UIButton!
+    
+    @IBOutlet weak var imageOnlyButton: UIButton!
+    
+    @IBOutlet weak var alternativeImageButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +28,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func makeItBluePressed(sender: UIButton) {
+        view.backgroundColor =
+    }
+    
+    @IBAction func fireTheLasersPressed(sender: UIButton) {
+    }
+    
+    @IBAction func imageOnlyButtonTapped(sender: AnyObject) {
+    }
+    
+    @IBAction func alternativeImageButtonTapped(sender: UIButton) {
+    }
+   
+    
+    
 
 }
 
